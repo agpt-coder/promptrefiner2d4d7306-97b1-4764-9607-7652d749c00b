@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "promptrefiner"
+version = "0.1.0"
+description = "To create a single API endpoint that takes a string LLM prompt and returns a refined version improved by GPT-4, you will need to follow these steps:"
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+fastapi = "^0.68.0"
+openai = "^0.10.2"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
